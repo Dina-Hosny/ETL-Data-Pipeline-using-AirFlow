@@ -30,6 +30,17 @@ The AirFlow DAG runs hourly to check and extract all new data from the PostgreSQ
 
 - 5- The Airflow DAG contains some Python functions using 'use the ```BranchPythonOperator``` operation to check if there are new records to insert or records to update before running the task to avoid errors. 
 
+## Tools and Technologies:
+
+- Apache Airflow
+- Python
+- Pandas
+- PostgreSQL
+- Snowflake
+- AWS S3
+- Data Warehouse Concepts
+- SCD
+
 
 ## Project Files:
 
